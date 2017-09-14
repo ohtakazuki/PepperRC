@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/action_settings">
+        <!-- サーバのIPアドレス -->
+        <EditTextPreference
+            android:key="@string/pref_ip_key"
+            android:title="@string/pref_ip_title"
+            android:summary="@string/pref_ip_summary"
+            />
+        <!-- 認証キー -->
+        <EditTextPreference
+            android:key="@string/pref_port_key"
+            android:title="@string/pref_login_title"
+            android:defaultValue="9559"
+            android:summary="@string/pref_login_summary"
+            />
+
+        <!-- 接続テスト -->
+        <Preference
+            android:key="@string/pref_test_key"
+            android:title="@string/pref_test_title"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

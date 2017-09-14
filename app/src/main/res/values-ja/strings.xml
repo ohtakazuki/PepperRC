@@ -1,0 +1,143 @@
+<resources>
+    <!-- 共通 -->
+    <string name="app_name">PepperRCPro</string>
+    <string name="app_namej">PepperRCPro</string>
+
+    <string name="action_settings">設定</string>
+    <string name="action_control">リモコン</string>
+    <string name="action_save">保存</string>
+    <string name="action_add">追加</string>
+    <string name="action_delete">削除</string>
+    <string name="action_cancel">キャンセル</string>
+
+    <string name="navigation_drawer_open">ナビゲーションを開きます</string>
+    <string name="navigation_drawer_close">ナビゲーションを閉じます</string>
+
+    <string name="msg_err_pref_setting">設定画面で設定を行ってください</string>
+    <string name="msg_free_5">free版の登録可能件数は５件までです</string>
+
+    <!-- preference 設定画面用 -->
+    <string name="pref_ip_key">pref_ip_key</string>
+    <string name="pref_ip_title">IPアドレス</string>
+    <string name="pref_ip_summary">pepperのIPアドレス（おなかのボタンを押すと話す）を指定します</string>
+
+    <string name="pref_port_key">pref_port_key</string>
+    <string name="pref_login_title">ポート番号（開発者用）</string>
+    <string name="pref_login_summary">pepperのポート番号を指定します。</string>
+
+    <string name="pref_test_key">pref_test_key</string>
+    <string name="pref_test_title">接続テスト</string>
+
+    <!-- コントローラー -->
+    <string name="str_err">例外が発生しました。</string>
+    <string name="str_err_ip">接続に失敗しました。設定画面で正しいIPアドレスが設定されているか確認して下さい</string>
+    <string name="str_power_on">接続</string>
+    <string name="str_connect">接続しました</string>
+    <string name="str_return">＜ 戻る</string>
+
+    <string name="str_voice_change">声を変えました</string>
+    <string name="str_auto">オートノマスライフ</string>
+
+    <string name="str_say">話す</string>
+    <string name="str_say_edit">せりふリストへ</string>
+    <string name="str_say_nostring">話すことを指定してください</string>
+    <string name="str_say_nostring2">せりふを入力してください</string>
+    <string name="str_say_voice">声を変える</string>
+    <string name="str_say_vol">ボリューム</string>
+    <string name="str_say_hint">文章を入力して追加</string>
+    <string name="str_say_hint2">ここに入力するか以下から選択</string>
+    <string name="str_say_edit_hint">タップで話す。長押しで編集</string>
+
+    <string name="str_img">撮影</string>
+    <string name="str_img_start">撮影開始</string>
+    <string name="str_img_start2">撮影を開始します</string>
+    <string name="str_img_stop">撮影終了</string>
+    <string name="str_img_stop2">撮影を終了しました</string>
+    <string name="str_img_picture">画像保存</string>
+    <string name="str_img_picture2">画像を保存しました</string>
+    <string name="str_img_notworking">撮影中ではありません</string>
+    <string name="str_img_working">撮影中です</string>
+
+    <string name="str_move">移動</string>
+    <string name="str_move_speed">スピード</string>
+    <string name="str_rotate_r">反時計回り</string>
+    <string name="str_rotate">時計回り</string>
+
+    <string name="str_gesture">ゼスチャー</string>
+    <string name="str_gesture_nothing">ゼスチャーを指定して下さい</string>
+
+    <string name="str_rec">音声キャプチャ</string>
+    <string name="str_rec_working">キャプチャ中です</string>
+    <string name="str_rec_start">キャプチャ開始</string>
+    <string name="str_rec_start2">キャプチャを開始します</string>
+    <string name="str_rec_stop">キャプチャ終了</string>
+    <string name="str_rec_stop2">キャプチャを終了しました</string>
+    <string name="str_rec_on">音声ON</string>
+    <string name="str_rec_off">音声OFF</string>
+
+    <string name="str_app">アプリ</string>
+    <string name="str_apprun">実行</string>
+    <string name="str_appstop">強制停止</string>
+    <string name="str_app_working">撮影中です</string>
+    <string name="str_app_nothing">アプリを指定して下さい</string>
+
+    <!-- コマンド -->
+    <string name="cmd_connect">cmd_connect</string>
+
+    <!-- セリフ（サンプル用） -->
+    <string name="say_goodmorning">おはようございます</string>
+    <string name="say_hello">こんにちは</string>
+    <string name="say_thankyou">ありがとう</string>
+    <string name="say_goodbye">さようなら</string>
+
+    <!-- ゼスチャー -->
+    <string name="gs_Angry_1">怒る</string>
+    <string name="gs_BowShort_1">短い礼</string>
+    <string name="gs_Salute_1">長い礼</string>
+    <string name="gs_But_1">しかし</string>
+    <string name="gs_ComeOn_1">呼び寄せる</string>
+    <string name="gs_CountMore_1">数を数える</string>
+    <string name="gs_DontUnderstand_1">理解に苦しむ</string>
+    <string name="gs_Enthusiastic_3">熱心に（指揮者）</string>
+    <string name="gs_Excited_1">興奮する</string>
+    <string name="gs_Far_1">遠くを示す</string>
+    <string name="gs_Follow_1">なぐさめる</string>
+    <string name="gs_Great_1">ガッツポーズ</string>
+    <string name="gs_Hey_1">おーい</string>
+    <string name="gs_Hot_2">うなだれる</string>
+    <string name="gs_IDontKnow_1">ぼく知らない</string>
+    <string name="gs_Kisses_1">投げキッス</string>
+    <string name="gs_Look_1">見回す</string>
+    <string name="gs_Me_1">私です</string>
+    <string name="gs_No_2">否定</string>
+    <string name="gs_ShowFloor_1">下を示す</string>
+    <string name="gs_ShowSky_1">上を示す</string>
+    <string name="gs_ShowTablet_1">タブレットを示す</string>
+    <string name="gs_Stretch_1">ストレッチ</string>
+    <string name="gs_Surprised_1">びっくりしたー</string>
+    <string name="gs_Take_1">ちょうだい</string>
+    <string name="gs_Wings_1">飛ぶ</string>
+    <string name="gs_Yes_1">はい</string>
+    <string name="gs_Yum_1">お腹いっぱい</string>
+
+    <!-- アプリリスト -->
+    <string name="app_sbr_71130">ペッパー音頭</string>
+    <string name="app_sbr_70390">ペッパー警部</string>
+    <string name="app_sbr_70130">LOVEマシーン</string>
+    <string name="app_sbr_70080">威風堂々</string>
+    <string name="app_sbr_60330">なきまねクイズ</string>
+    <string name="app_sbr_70230">およげ！たいやきくん</string>
+    <string name="app_sbr_70430">恋するフォーチュンクッキー</string>
+    <string name="app_sbr_60770">乗り物クイズ</string>
+    <string name="app_sbr_70400">ヘビーローテーション</string>
+
+    <!-- 本番用 -->
+    <!--
+    -->
+    <string name="banner_ad_unit_id">ca-app-pub-9634058620384171/9549747041</string>
+
+    <!-- テスト用ID -->
+    <!--
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+</resources>

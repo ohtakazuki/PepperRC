@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="top">
+<!--
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/str_auto"
+            android:textColor="@color/colorWhite"/>
+
+        <Switch android:id="@+id/autoSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/view_margin"
+                android:checked="true"/>
+
+        <!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorBlack" />
+        -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/str_say"
+            android:textColor="@color/colorWhite"/>
+
+        <!-- Say -->
+        <EditText
+            android:id="@+id/sayEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/view_margin"
+            android:hint="@string/str_say_hint"
+            android:inputType="text"
+            android:maxLength="200"/>
+
+        <Spinner
+            android:id="@+id/saySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"/>
+
+        <Button
+            android:id="@+id/sayButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginTop="@dimen/view_margin"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:layout_marginRight="@dimen/view_margin"
+            android:text="@string/str_say"/>
+
+        <!-- free版 -->
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:layout_marginTop="@dimen/view_margin"
+            android:text="@string/str_say_vol"/>
+
+        <SeekBar
+            android:id="@+id/saySeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+
+        <Button
+            android:id="@+id/sayEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/view_margin"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:text="@string/str_say_edit"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/str_app"
+            android:textColor="@color/colorWhite"/>
+
+        <Spinner
+            android:id="@+id/appSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"/>
+
+        <Button
+            android:id="@+id/appButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/str_apprun"/>
+
+
+        <Button
+            android:id="@+id/appStopButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/str_appstop"
+            android:allowUndo="false" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/str_gesture"
+            android:textColor="@color/colorWhite"/>
+
+        <Spinner
+            android:id="@+id/gestureSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"/>
+
+        <Button
+            android:id="@+id/gestureButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/str_gesture"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/str_move"
+            android:textColor="@color/colorWhite"/>
+
+        <!-- move -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin">
+
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/move1Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="↖"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <Button
+                    android:id="@+id/move2Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="↑"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <Button
+                    android:id="@+id/move3Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="↗"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/move4Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="←"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <TextView
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"/>
+
+                <Button
+                    android:id="@+id/move6Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="→"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/move7Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="↙"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <Button
+                    android:id="@+id/move8Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="↓"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <Button
+                    android:id="@+id/move9Button"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:text="↘"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/moveRoteRightButton"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/button_size"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_menu_rotater"
+                android:text="@string/str_rotate_r"/>
+
+            <Button
+                android:id="@+id/moveRoteLeftButton"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/button_size"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_menu_rotate"
+                android:text="@string/str_rotate"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:text="@string/str_move_speed"/>
+
+        <SeekBar
+            android:id="@+id/moveSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/str_rec"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/recStartButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/str_rec_start"/>
+
+        <Button
+            android:id="@+id/recStopButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/str_rec_stop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/str_img"
+            android:textColor="@color/colorWhite"/>
+
+        <!-- 撮影 -->
+        <ImageView
+            android:id="@+id/imgImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imgStartButton"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/view_margin"
+                android:text="@string/str_img_start"/>
+
+            <Button
+                android:id="@+id/imgStopButton"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/view_margin"
+                android:text="@string/str_img_stop"/>
+
+            <Button
+                android:id="@+id/imgPictureButton"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/view_margin"
+                android:text="@string/str_img_picture"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+<!--
+</RelativeLayout>
+-->

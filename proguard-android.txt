@@ -1,0 +1,5 @@
+-dontwarn com.google.android.gms.*
+-keep class com.aldebaran.** {
+   *;
+}
+-ignorewarnings

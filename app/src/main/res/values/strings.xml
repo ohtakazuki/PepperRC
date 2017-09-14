@@ -1,0 +1,143 @@
+<resources>
+    <!-- 共通 -->
+    <string name="app_name">PepperRC</string>
+    <string name="app_namej">PepperRC</string>
+
+    <string name="action_settings">Config</string>
+    <string name="action_control">Controller</string>
+    <string name="action_save">Save</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="navigation_drawer_open">Open the navigation</string>
+    <string name="navigation_drawer_close">Close the navigation</string>
+
+    <string name="msg_err_pref_setting">Please make settings on the setting screen</string>
+    <string name="msg_free_5">Up to 5 registrations can be registered for free version</string>
+
+    <!-- preference 設定画面用 -->
+    <string name="pref_ip_key">pref_ip_key</string>
+    <string name="pref_ip_title">IP address</string>
+    <string name="pref_ip_summary">Specify the IP address of pepper (talking when you hit a tummy button)</string>
+
+    <string name="pref_port_key">pref_port_key</string>
+    <string name="pref_login_title">Port number (for developer)</string>
+    <string name="pref_login_summary">Specify the port number of pepper.</string>
+
+    <string name="pref_test_key">pref_test_key</string>
+    <string name="pref_test_title">Connection test</string>
+
+    <!-- コントローラー -->
+    <string name="str_err">An exception occurred.</string>
+    <string name="str_err_ip">Connection failed. Please check whether the correct IP address is set on the setting screen</string>
+    <string name="str_power_on">Connection</string>
+    <string name="str_connect">Connected</string>
+    <string name="str_return">＜ Return</string>
+
+    <string name="str_voice_change">Changed voice</string>
+    <string name="str_auto">Autonomous Life</string>
+
+    <string name="str_say">Speak</string>
+    <string name="str_say_edit">Speaking List</string>
+    <string name="str_say_nostring">Please specify to speak</string>
+    <string name="str_say_nostring2">Please enter your speak</string>
+    <string name="str_say_voice">Change voice</string>
+    <string name="str_say_vol">Volume</string>
+    <string name="str_say_hint">Enter a sentence and add it</string>
+    <string name="str_say_hint2">Please enter here or select from below</string>
+    <string name="str_say_edit_hint">Tap to talk. Press and hold to edit</string>
+
+    <string name="str_img">Shooting</string>
+    <string name="str_img_start">Start</string>
+    <string name="str_img_start2">Start shooting</string>
+    <string name="str_img_stop">Stop</string>
+    <string name="str_img_stop2">Shooting ended</string>
+    <string name="str_img_picture">Save to image</string>
+    <string name="str_img_picture2">Image saved</string>
+    <string name="str_img_notworking">It is not shooting.</string>
+    <string name="str_img_working">Now shooting</string>
+
+    <string name="str_move">Move</string>
+    <string name="str_move_speed">Speed</string>
+    <string name="str_rotate_r">Turn Left</string>
+    <string name="str_rotate">Turn right</string>
+
+    <string name="str_gesture">Gesture</string>
+    <string name="str_gesture_nothing">Please specify a gesture</string>
+
+    <string name="str_rec">Audio capture</string>
+    <string name="str_rec_working">Now capturing</string>
+    <string name="str_rec_start">Start</string>
+    <string name="str_rec_start2">Start capturing</string>
+    <string name="str_rec_stop">Stop</string>
+    <string name="str_rec_stop2">Capturing ended</string>
+    <string name="str_rec_on">Audio ON</string>
+    <string name="str_rec_off">Audio OFF</string>
+
+    <string name="str_app">Application</string>
+    <string name="str_apprun">Run</string>
+    <string name="str_appstop">Forced stop</string>
+    <string name="str_app_working">Now running</string>
+    <string name="str_app_nothing">Please specify a application</string>
+
+    <!-- コマンド -->
+    <string name="cmd_connect">cmd_connect</string>
+
+    <!-- セリフ（サンプル用） -->
+    <string name="say_goodmorning">Good morning</string>
+    <string name="say_hello">Hello</string>
+    <string name="say_thankyou">Thank you</string>
+    <string name="say_goodbye">Good bye</string>
+
+    <!-- ゼスチャー -->
+    <string name="gs_Angry_1">Angry</string>
+    <string name="gs_BowShort_1">Bow short</string>
+    <string name="gs_Salute_1">Salute</string>
+    <string name="gs_But_1">But...</string>
+    <string name="gs_ComeOn_1">Come on</string>
+    <string name="gs_CountMore_1">Count more</string>
+    <string name="gs_DontUnderstand_1">Dont understand</string>
+    <string name="gs_Enthusiastic_3">Enthusiastic</string>
+    <string name="gs_Excited_1">Excited</string>
+    <string name="gs_Far_1">Far</string>
+    <string name="gs_Follow_1">Follow</string>
+    <string name="gs_Great_1">Great</string>
+    <string name="gs_Hey_1">Hey</string>
+    <string name="gs_Hot_2">Hot</string>
+    <string name="gs_IDontKnow_1">I dont know</string>
+    <string name="gs_Kisses_1">Kisses</string>
+    <string name="gs_Look_1">Look around</string>
+    <string name="gs_Me_1">Its me</string>
+    <string name="gs_No_2">No</string>
+    <string name="gs_ShowFloor_1">Show floor</string>
+    <string name="gs_ShowSky_1">Show sky</string>
+    <string name="gs_ShowTablet_1">Show tablet</string>
+    <string name="gs_Stretch_1">Stretch</string>
+    <string name="gs_Surprised_1">Surprised</string>
+    <string name="gs_Take_1">Take</string>
+    <string name="gs_Wings_1">Wings</string>
+    <string name="gs_Yes_1">Yes</string>
+    <string name="gs_Yum_1">Yummy</string>
+
+    <!-- アプリリスト -->
+    <string name="app_sbr_71130">Pepper ONDO</string>
+    <string name="app_sbr_70390">Pepper police</string>
+    <string name="app_sbr_70130">Love machine</string>
+    <string name="app_sbr_70080">Stately</string>
+    <string name="app_sbr_60330">Nakimane Quiz</string>
+    <string name="app_sbr_70230">Gift! Taiyaki-kun</string>
+    <string name="app_sbr_70430">Fortune cookie in love</string>
+    <string name="app_sbr_60770">Vehicle quiz</string>
+    <string name="app_sbr_70400">Heavy Rotation</string>
+
+    <!-- 本番用 -->
+    <!--
+    -->
+    <string name="banner_ad_unit_id">ca-app-pub-9634058620384171/9549747041</string>
+
+    <!-- テスト用ID -->
+    <!--
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+</resources>
